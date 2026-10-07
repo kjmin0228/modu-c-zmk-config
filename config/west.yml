@@ -3,7 +3,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: modu-c-upstream
-      url-base: https://github.com/22sh22
+      url-base: https://github.com/kjmin0228
 
   projects:
     - name: zmk
@@ -13,7 +13,7 @@ manifest:
 
     - name: modu-c-firmware
       remote: modu-c-upstream
-      revision: bee0bb4b812f63f279eb67e928accc89600b5904
+      revision: 97bf654b7904720641a732a7ed66d2e7e9d013d2
       path: modu-c-firmware
 
   self:

@@ -11,7 +11,7 @@ from typing import Any
 
 ROOT = Path(__file__).resolve().parents[1]
 ZMK_REVISION = "641514a97db345f499dd50b0360e594270f008fe"
-MODU_REVISION = "bee0bb4b812f63f279eb67e928accc89600b5904"
+MODU_REVISION = "97bf654b7904720641a732a7ed66d2e7e9d013d2"
 BOARD = "ms88sf3/nrf52840"
 EXPECTED_COORDINATES = [
     *[(row, col) for row in range(5) for col in range(12)],
@@ -276,7 +276,7 @@ def check_build_files() -> None:
         fail("MODU-C project revision/path differs from the audited pinned configuration")
     for token in (
         "url-base: https://github.com/zmkfirmware",
-        "url-base: https://github.com/22sh22",
+        "url-base: https://github.com/kjmin0228",
         "self:\n    path: config",
     ):
         if token not in west_text:
