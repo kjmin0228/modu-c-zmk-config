@@ -7,3 +7,12 @@ __pycache__/
 *.uf2
 .DS_Store
 Thumbs.db
+
+# west workspace pulled in by `west init -l config` (CI re-fetches these)
+.west/
+zmk/
+zephyr/
+modules/
+optional/
+modu-c-firmware/
+results/
