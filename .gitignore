@@ -16,3 +16,6 @@ modules/
 optional/
 modu-c-firmware/
 results/
+
+# local python venv used by build.ps1 (Windows)
+.venv/
